@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.text {
+  color: white;
+}
+.latest-card {
+  width: 80%;
+  background-color: #1e293b;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 10px;
+}
+@media (max-width: 576px) {
+  .latest-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+}
+.second-card {
+  width: 90%;
+  margin-left: 150px;
+}
+@media (max-width: 576px) {
+  .second-card {
+    margin-left: 130px;
+  }
+}
+.competingTeam {
+  color: white;
+  font-family: Bree Serif;
+}
+.date-match {
+  color: white;
+  font-family: Bree Serif;
+}
+.date {
+  color: white;
+  font-weight: bold;
+  font-family: Bree Serif;
+  text-align: right;
+}
+.team-logo {
+  height: 150px;
+  width: 150px;
+}

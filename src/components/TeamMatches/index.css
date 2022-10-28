@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.click-bg {
+  background-image: linear-gradient(to bottom, #d91c1f, #e31a1a, #475569);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  width: 100vw;
+}
+.list-elements {
+  list-style-type: none;
+  width: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  margin-left: 0px;
+  justify-content: center;
+}
+@media (min-width: 576px) {
+  .list-elements {
+    margin-right: 30px;
+  }
+}
+.banner {
+  margin-top: 20px;
+  width: 80%;
+  margin-left: 20px;
+}
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
